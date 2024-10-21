@@ -18,9 +18,9 @@ MATKUL : BAHASA PEMOGRAMAN
 
 ## PRAKTIKUM 3
 # TUGAS 1
-![WhatsApp Image 2024-10-21 at 20 18 56_f04cff40](https://github.com/user-attachments/assets/5360c763-7668-4062-aae1-c3f8c0703a52)
+#![WhatsApp Image 2024-10-21 at 20 18 56_f04cff40](https://github.com/user-attachments/assets/5360c763-7668-4062-aae1-c3f8c0703a52)
 
-![WhatsApp Image 2024-10-21 at 20 19 06_a3047272](https://github.com/user-attachments/assets/3fa58d59-6cec-498f-a3ed-10c1fb6ff4d2)
+#![WhatsApp Image 2024-10-21 at 20 19 06_a3047272](https://github.com/user-attachments/assets/3fa58d59-6cec-498f-a3ed-10c1fb6ff4d2)
 ```pyhton
 ```print('a',end=")
 ```print('b',end=")
