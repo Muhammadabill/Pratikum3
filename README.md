@@ -1,4 +1,4 @@
-![WhatsApp Image 2024-10-21 at 20 18 42_7bab611b](https://github.com/user-attachments/assets/62c34ec4-6870-483c-985c-d876b5a67a64)# TUGAS-BAHASA-PEMOGRAMAN-PERTEMUAN-5
+# TUGAS-BAHASA-PEMOGRAMAN-PERTEMUAN-5
 
 # BIODATA
 NAMA : MUHAMAD NABIL SATRIYA SUNTARA
@@ -21,20 +21,20 @@ MATKUL : BAHASA PEMOGRAMAN
 # STRING FORMAT
 
 ![WhatsApp Image 2024-10-21 at 20 19 06_a3047272](https://github.com/user-attachments/assets/3fa58d59-6cec-498f-a3ed-10c1fb6ff4d2)
-pyhton
-print('a',end=")
-print('b',end=")
-print('c',end=")
-print()
-print('x')
-print('y')
-print('z')
-'
+'''pyhton
+'''print('a',end=")
+'''print('b',end=")
+'''print('c',end=")
+'''print()
+'''print('x')
+'''print('y')
+'''print('z')
+''''
 
 Parameter end dalam fungsi print () di pyhton di gunakan untuk menambahkan string("") apapun diakhir dan mengeluarkan pertanyaan print
 
-pyhton
-print()
+'''pyhton
+'''print()
 
 secara default,fungsi print() akan mengakhiri dengan baris baru,dan akan secara otomatis karakter baris baru di akhir output
 
@@ -44,13 +44,13 @@ inilah akhir program tersebut
 
 ## PENGGUNAAN SEREPATOR
 ![WhatsApp Image 2024-10-21 at 20 19 16_68a42294](https://github.com/user-attachments/assets/039a877a-9871-4d77-8092-30fe8945e37a)
-pyhton
-w,x,y,z,10,15,20,25
-print(w,x,y,z,)
-print(w,x,y,z, sep=',')
-print(w,x,y,z, sep='')
-print(w,x,y,z, sep=':')
-print(w,x,y,z, sep='-----')
+'''pyhton
+'''w,x,y,z,10,15,20,25
+'''print(w,x,y,z,)
+'''print(w,x,y,z, sep=',')
+'''print(w,x,y,z, sep='')
+'''print(w,x,y,z, sep=':')
+'''print(w,x,y,z, sep='-----')
 
 pada pyhton pengguna serepator dapat menggunakan split() atau sep yang seperti dalam kode program di atas 
 
@@ -59,67 +59,67 @@ serepator ini menentukan pembatasan yang di gunakan untuk memisahkan string,sere
 Berikut hasil kode Program di atas
 ![WhatsApp Image 2024-10-21 at 21 08 18_b37df85c](https://github.com/user-attachments/assets/a29bd597-8068-4dda-89fb-147eca32d89f)
 
-pyhton
-w,x,y,z, =10,15,20,25
+'''pyhton
+'''w,x,y,z, =10,15,20,25
 
 Variable yang seperti ini menentukan parameter,jadi variable ini tidak bisa memasukan variable angka yang sudah ditentukan w = 10,x=15,y=20,z=25
 
-Print(w,x,y,z sep=',')
+'''Print(w,x,y,z sep=',')
 
 karena pemisahnya dihilangkan,kita menggunakan fungsi sepatausplit()dan kita memasukkan pemisahnya didalam string akan memunculkan cetakan yang sesuai keinginan anda dalam memisahkan sesuatu parameter
 
 ![WhatsApp Image 2024-10-21 at 20 19 25_ed004fd9](https://github.com/user-attachments/assets/ddd95fb3-e323-449e-adda-b6572c95f051)
 
-print(0, 10**0)
-print(1, 10**1)
-print(2, 10**2)
-print(3, 10**3)
-print(4, 10**4)
-print(5, 10**5)
-print(6, 10**6)
-print(7, 10**7)
-print(8, 10**8)
-print(9, 10**9)
-print(10, 10**10)
+'''print(0, 10**0)
+'''print(1, 10**1)
+'''print(2, 10**2)
+'''print(3, 10**3)
+'''print(4, 10**4)
+'''print(5, 10**5)
+'''print(6, 10**6)
+'''print(7, 10**7)
+'''print(8, 10**8)
+'''print(9, 10**9)
+'''print(10, 10**10)
 
-print('{0:>3} {1:>16}'.format(0, 10**0))
-print('{0:>3} {1:>16}'.format(1, 10**1))
-print('{0:>3} {1:>16}'.format(2, 10**2))
-print('{0:>3} {1:>16}'.format(3, 10**3))
-print('{0:>3} {1:>16}'.format(4, 10**4))
-print('{0:>3} {1:>16}'.format(5, 10**5))
-print('{0:>3} {1:>16}'.format(6, 10**6))
-print('{0:>3} {1:>16}'.format(7, 10**7))
-print('{0:>3} {1:>16}'.format(8, 10**8))
-print('{0:>3} {1:>16}'.format(9, 10**9))
-print('{0:>3} {1:>16}'.format(10, 10**10))
+'''print('{0:>3} {1:>16}'.format(0, 10**0))
+'''print('{0:>3} {1:>16}'.format(1, 10**1))
+'''print('{0:>3} {1:>16}'.format(2, 10**2))
+'''print('{0:>3} {1:>16}'.format(3, 10**3))
+'''print('{0:>3} {1:>16}'.format(4, 10**4))
+'''print('{0:>3} {1:>16}'.format(5, 10**5))
+'''print('{0:>3} {1:>16}'.format(6, 10**6))
+'''print('{0:>3} {1:>16}'.format(7, 10**7))
+'''print('{0:>3} {1:>16}'.format(8, 10**8))
+'''print('{0:>3} {1:>16}'.format(9, 10**9))
+'''print('{0:>3} {1:>16}'.format(10, 10**10))
 
 String Format adalah proses memasukan variable atau string kustom ke dalam teks yang sudah ditentukan,dan dapat digunakan untuk berbagai keperluan,seperti memasukan judul dalam grafik,menampilkan pesan atau kesalahan, atau meneruskan kesalahan ke suatu fungsi
 
-print(0, 10**0)
-print(1, 10**1)
-print(2, 10**2)
-print(3, 10**3)
-print(4, 10**4)
-print(5, 10**5)
-print(6, 10**5)
-print(8, 10**8)
-print(9, 10**9)
-print(10, 10**10)
+'''print(0, 10**0)
+'''print(1, 10**1)
+'''print(2, 10**2)
+'''print(3, 10**3)
+'''print(4, 10**4)
+'''print(5, 10**5)
+'''print(6, 10**5)
+'''print(8, 10**8)
+'''print(9, 10**9)
+'''print(10, 10**10)
 
 Nilai pertama dalam setiap pasangan adalah angka dari 0 hingga 10, kode program ini dihitung dengan menggunakan operasi pangkat atau fungsinya (**) untuk menaikkan 10 ke pangkat yang sesuai dengan angka pertama, yang bisa di bahasa manusiakan variable 0 = 10 pangkat 0, variable 1 10 pangkat 1 dan seterusnya hingga variable 10 yaitu 10 pangkat 10, dan di cetak dengan fungsi print()
 
-print('{0:>3} {1:>16}'.format(0, 10**0))
-print('{0:>3} {1:>16}'.format(1, 10**1))
-print('{0:>3} {1:>16}'.format(2, 10**2))
-print('{0:>3} {1:>16}'.format(3, 10**3))
-print('{0:>3} {1:>16}'.format(4, 10**4))
-print('{0:>3} {1:>16}'.format(5, 10**5))
-print('{0:>3} {1:>16}'.format(6, 10**6))
-print('{0:>3} {1:>16}'.format(7, 10**7))
-print('{0:>3} {1:>16}'.format(8, 10**8))
-print('{0:>3} {1:>16}'.format(9, 10**9))
-print('{0:>3} {1:>16}'.format(10, 10**10))
+'''print('{0:>3} {1:>16}'.format(0, 10**0))
+'''print('{0:>3} {1:>16}'.format(1, 10**1))
+'''print('{0:>3} {1:>16}'.format(2, 10**2))
+'''print('{0:>3} {1:>16}'.format(3, 10**3))
+'''print('{0:>3} {1:>16}'.format(4, 10**4))
+'''print('{0:>3} {1:>16}'.format(5, 10**5))
+'''print('{0:>3} {1:>16}'.format(6, 10**6))
+'''print('{0:>3} {1:>16}'.format(7, 10**7))
+'''print('{0:>3} {1:>16}'.format(8, 10**8))
+'''print('{0:>3} {1:>16}'.format(9, 10**9))
+'''print('{0:>3} {1:>16}'.format(10, 10**10))
 
 Kode ini mencetak 11 baris dengan format {0:3} {1:16} yang di gunakan untuk mengatur format string
 
@@ -130,31 +130,31 @@ angka 1 diformat untuk memiliki lebar 16 Karakter atau 16 kali spasi dengan pera
 ## KODE PEMOGRAMAN
 ## 3 INPUT BILANGAN
 
-a = int(input("masukan angka pertama: "))
-b = int(input("masukan angka kedua: "))
-c = int(input("masukan angka ketiga: "))
+'''a = int(input("masukan angka pertama: "))
+'''b = int(input("masukan angka kedua: "))
+'''c = int(input("masukan angka ketiga: "))
 
-if a > b and a > c:
-    print(f"angka lebih besar adalah {a}")
-elif b > a and b > c:
-    print(f"angka lebih besar adalah {b}")
-else:
-    print(f"angka lebih besar adalah {c}")
+'''if a > b and a > c:
+   '''print(f"angka lebih besar adalah {a}")
+'''elif b > a and b > c:
+    '''print(f"angka lebih besar adalah {b}")
+'''else:
+    '''print(f"angka lebih besar adalah {c}")
 
 Program ini akan menginputkan 3 bilangan dari a yang sampai dengan c.
 
-if a > b and a > c:
-    print(f"angka lebih besar adalah {a}")
+'''if a > b and a > c:
+   '''print(f"angka lebih besar adalah {a}")
 
 Karna Jika {a} lebih besar dari {b} dan {a} lebih besar dari {c}, output yang keluar adalah {a}
 
-elif b > a and b > c:
-   print(f"angka lebih besar adalah {b}")
+'''elif b > a and b > c:
+   '''print(f"angka lebih besar adalah {b}")
 
 Dan jika {b} lebih besar dari {a} dan {b} lebih besar dari {c} maka output yang keluar adalah {b}
 
-else:
-    print(f"angka lebih besar adalah {c}")
+'''else:
+    '''print(f"angka lebih besar adalah {c}")
 
 Jika inputan yang diatas lebih kecil dari {c} maka output {c} yang akan keluar
 
@@ -169,35 +169,35 @@ Dan Flowchart
 
 ## MENENTUKAN BILANGAN TERBESAR DARI N DAN BERIKAN ANGKA 0
 
-while True:   
-    N = int(input("masukan angka: "))
+'''while True:   
+    '''N = int(input("masukan angka: "))
 
-    if N == 0:
-        print(f"angaka terbesar adalah: {max}")
-        break
-    if N > max:
-        max = N
+    '''if N == 0:
+        '''print(f"angaka terbesar adalah: {max}")
+        '''break
+    '''if N > max:
+        '''max = N
 
 Untuk menentukan bilangan terbesar dari n dalam Python, Anda bisa menggunakan fungsi max()
 
-max = 0
+'''max = 0
 
 Masukkan daftar angka ke fungsi max(), Fungsi max() akan mengembalikan angka terbesar dalam daftar
 
 Fungsi max() adalah fungsi bawaan Python yang berguna untuk menemukan nilai terbesar dalam suatu iterable atau dalam serangkaian argumen reguler.
 
-if N == 0:
-        print(f"angka yang terbesar adalah: {max}")
-        break
+'''if N == 0:
+        '''print(f"angka yang terbesar adalah: {max}")
+        '''break
 
 Fungsi ini jika Kita memasukan inputan integer yaitu 0 akan berlanjut ke fungsi break program dihentikan yang artinya selesai.
 
-if N > max:
-        max = N
+'''if N > max:
+        '''max = N
 
 Jika Inputan yang kita masukan lebih besar dari fungsi max() di atas, program akan melanjutkan ke proses max = N yang artinya Angka terbesar akan Mencetak Inputan Bilangan yang kita masukan yang terbesar di cetak
 
-while True:
+'''while True:
 
 While true: adalah konstruksi perulangan dalam bahasa pemrograman Python yang memungkinkan blok kode diulang tanpa batas. dan karna di kode program diatas ada fungsi While True: Program terus berlanjut terus menerus, dan ketika kita ingin berhenti saya berikan decision N==0 dengan fungsi di bawahnya break seperti di atas yang berarti Inputan Integer yang di masukan angka 0 program akan di hentikan dan memunculkan cetakan yang terbesar
 
@@ -209,13 +209,3 @@ Hasil VisualCode
 
 Dan Hasil Flowchart
 ![WhatsApp Image 2024-10-21 at 21 27 22_c524c0d6](https://github.com/user-attachments/assets/80999607-724c-4e68-b0cc-2a728efa462c)
-
-
-
-
-
-
-
-
-
-
