@@ -40,10 +40,10 @@ secara default,fungsi print() akan mengakhiri dengan baris baru,dan akan secara 
 
 inilah akhir program tersebut
 
-![Screenshot 2024-10-21 193251](https://github.com/user-attachments/assets/9b0fb46b-ea92-4bff-8906-d9ba7802afb2)
+#![Screenshot 2024-10-21 193251](https://github.com/user-attachments/assets/9b0fb46b-ea92-4bff-8906-d9ba7802afb2)
 
 ## PENGGUNAAN SEREPATOR
-![WhatsApp Image 2024-10-21 at 20 19 16_68a42294](https://github.com/user-attachments/assets/039a877a-9871-4d77-8092-30fe8945e37a)
+#![WhatsApp Image 2024-10-21 at 20 19 16_68a42294](https://github.com/user-attachments/assets/039a877a-9871-4d77-8092-30fe8945e37a)
 ```pyhton
 ```w,x,y,z,10,15,20,25
 ```print(w,x,y,z,)
@@ -57,7 +57,7 @@ pada pyhton pengguna serepator dapat menggunakan split() atau sep yang seperti d
 serepator ini menentukan pembatasan yang di gunakan untuk memisahkan string,serepator dapat berupa karakter tunggal atau beberapa karakter.jika tidak ditentukan,maka pyhton akan menggunakan spasi sebagai pemisah.
 
 Berikut hasil kode Program di atas
-![WhatsApp Image 2024-10-21 at 21 08 18_b37df85c](https://github.com/user-attachments/assets/a29bd597-8068-4dda-89fb-147eca32d89f)
+#![WhatsApp Image 2024-10-21 at 21 08 18_b37df85c](https://github.com/user-attachments/assets/a29bd597-8068-4dda-89fb-147eca32d89f)
 
 ```pyhton
 ```w,x,y,z, =10,15,20,25
@@ -68,7 +68,7 @@ Variable yang seperti ini menentukan parameter,jadi variable ini tidak bisa mema
 
 karena pemisahnya dihilangkan,kita menggunakan fungsi sepatausplit()dan kita memasukkan pemisahnya didalam string akan memunculkan cetakan yang sesuai keinginan anda dalam memisahkan sesuatu parameter
 
-![WhatsApp Image 2024-10-21 at 20 19 25_ed004fd9](https://github.com/user-attachments/assets/ddd95fb3-e323-449e-adda-b6572c95f051)
+#![WhatsApp Image 2024-10-21 at 20 19 25_ed004fd9](https://github.com/user-attachments/assets/ddd95fb3-e323-449e-adda-b6572c95f051)
 
 ```print(0, 10**0)
 ```print(1, 10**1)
@@ -159,13 +159,13 @@ Dan jika {b} lebih besar dari {a} dan {b} lebih besar dari {c} maka output yang 
 Jika inputan yang diatas lebih kecil dari {c} maka output {c} yang akan keluar
 
 Hasil Pemograman Tersebut
-![WhatsApp Image 2024-10-21 at 21 20 14_d47cf637](https://github.com/user-attachments/assets/bcaca521-7fb7-4619-9d27-3024c9d07caf)
+#![WhatsApp Image 2024-10-21 at 21 20 14_d47cf637](https://github.com/user-attachments/assets/bcaca521-7fb7-4619-9d27-3024c9d07caf)
 
 Hasil VisualCode
-![WhatsApp Image 2024-10-21 at 19 22 27_47869658](https://github.com/user-attachments/assets/a92d27a7-517d-4f70-88b0-28b911807dce)
+#![WhatsApp Image 2024-10-21 at 19 22 27_47869658](https://github.com/user-attachments/assets/a92d27a7-517d-4f70-88b0-28b911807dce)
 
 Dan Flowchart
-![WhatsApp Image 2024-10-21 at 21 29 25_1bd6824e](https://github.com/user-attachments/assets/ce1143c8-2266-4b28-9e13-f9ccc367bfc6)
+#![WhatsApp Image 2024-10-21 at 21 29 25_1bd6824e](https://github.com/user-attachments/assets/ce1143c8-2266-4b28-9e13-f9ccc367bfc6)
 
 ## MENENTUKAN BILANGAN TERBESAR DARI N DAN BERIKAN ANGKA 0
 
@@ -202,10 +202,10 @@ Jika Inputan yang kita masukan lebih besar dari fungsi max() di atas, program ak
 While true: adalah konstruksi perulangan dalam bahasa pemrograman Python yang memungkinkan blok kode diulang tanpa batas. dan karna di kode program diatas ada fungsi While True: Program terus berlanjut terus menerus, dan ketika kita ingin berhenti saya berikan decision N==0 dengan fungsi di bawahnya break seperti di atas yang berarti Inputan Integer yang di masukan angka 0 program akan di hentikan dan memunculkan cetakan yang terbesar
 
 Dan Hasil Pemograman Tersebut
-![Screenshot 2024-10-21 193354](https://github.com/user-attachments/assets/a660ffc5-0435-4107-b16f-3557ae8c07ff)
+#![Screenshot 2024-10-21 193354](https://github.com/user-attachments/assets/a660ffc5-0435-4107-b16f-3557ae8c07ff)
 
 Hasil VisualCode
-![Screenshot 2024-10-21 193354](https://github.com/user-attachments/assets/515b04d1-829a-40d8-9da6-cc1284faa871)
+#![Screenshot 2024-10-21 193354](https://github.com/user-attachments/assets/515b04d1-829a-40d8-9da6-cc1284faa871)
 
 Dan Hasil Flowchart
-![WhatsApp Image 2024-10-21 at 21 27 22_c524c0d6](https://github.com/user-attachments/assets/80999607-724c-4e68-b0cc-2a728efa462c)
+#![WhatsApp Image 2024-10-21 at 21 27 22_c524c0d6](https://github.com/user-attachments/assets/80999607-724c-4e68-b0cc-2a728efa462c)
