@@ -11,14 +11,14 @@ MATKUL : BAHASA PEMOGRAMAN
 
 #![WhatsApp Image 2024-10-21 at 20 18 42_7bab611b](https://github.com/user-attachments/assets/929e5cc2-1fc1-4080-abbf-f689b7bd4c2f)
 
-## PRAKTIKUM 3
-# TUGAS 1
-![WhatsApp Image 2024-10-21 at 20 18 56_f04cff40](https://github.com/user-attachments/assets/5360c763-7668-4062-aae1-c3f8c0703a52)
-
 # PEMBAHASAN MENGENAI 
 # PENGGUNAAN END
 # PENGGUNAAN SEREPATOR
 # STRING FORMAT
+
+## PRAKTIKUM 3
+# TUGAS 1
+![WhatsApp Image 2024-10-21 at 20 18 56_f04cff40](https://github.com/user-attachments/assets/5360c763-7668-4062-aae1-c3f8c0703a52)
 
 ![WhatsApp Image 2024-10-21 at 20 19 06_a3047272](https://github.com/user-attachments/assets/3fa58d59-6cec-498f-a3ed-10c1fb6ff4d2)
 ```pyhton
