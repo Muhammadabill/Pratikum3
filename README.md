@@ -1,211 +1,139 @@
-# TUGAS-BAHASA-PEMOGRAMAN-PERTEMUAN-5
+# PRAKTIKUM3
 
 # BIODATA
-NAMA : MUHAMAD NABIL SATRIYA SUNTARA
+# NAMA : MUHAMAD NABIL SATRIYA SUNTARA
+# KELAS TI.24.A4
+# NIM : 312410365
+# MATKUL: BAHASA PEMROGRAMAN
+# Latihan KE 1
+# ![Screenshot 2024-10-15 143542](https://github.com/user-attachments/assets/7da59fdf-531e-4872-b291-07ccd0f28c9b)
+```Python
+#penggunaan end
+print('A', end='')
+print('B', end='')
+print('C', end='')
+print()
+print('X')
+print('Y')
+print('z')
 
-KELAS : TI 24.A4
+#penggunaan separator
+w, x, y, z = 10, 15, 20, 25
+print(w, x, y, z)
+print(w, x, y, z, sep=',')
+print(w, x, y, z, sep='')
+print(w, x, y, z, sep=':')
+print(w, x, y, z, sep='.....')
+```
+Penggunaan print () digunakan untuk mencetak output, seperti syntax dibawah ini :
+Penggunaan END Penggunaan end dipakai untuk menambahkan karakter yang dicetak di akhir baris. secara default penggunaan end adalah untuk ganti baris.
+```Python
+print('A', end='')
+print('B', end='')
+print('C', end='')
+```
+Penggunaan print () digunakan untuk mencetak output, seperti syntax dibawah ini :
+```Python
+print()
+```
+Syntax dibawah ini digunakan untuk menampilkan output berupa string
+```Python
+print('X')
+print('Y')
+print('z')
+```
+Hasil dari source code tersebut seperti gambar dibawah ini :
+# ![Screenshot 2024-10-15 133640](https://github.com/user-attachments/assets/bbd4b023-3b5c-4926-93a6-61ce7606138b)
+Penggunaan separator Pendeklarasian beberapa variable beserta nilainya
+```python
+w,x,y,z=10,15,20,25
+```
+Menampilkan hasil dari variable tiap-tiap variable
+```Python
+print(w,x,y,z)
+```
+Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemirsah : (koma)
+```python
+print(w,x,y,z,sep=",")
+```
+Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemirsah
+```Python
+print(w,x,y,z,sep="")
+```
+Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemirsah : (titik dua)
+```Python
+print(w,x,y,z,sep=":")
+```
+Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemirsah -----
+```Python
+print(w,x,y,z,sep="-----")
+```
+hasil dari syntax / source code diatas adalah seperti berikut ini :
+# ![Screenshot 2024-10-15 133703](https://github.com/user-attachments/assets/1a287e65-bd0e-46f9-9f51-1c4eea73d767)
+# LATIHAN KE 2
+# ![Screenshot 2024-10-15 135657](https://github.com/user-attachments/assets/e108554a-cf40-4257-93c0-c2491b9a134a)
+```Python
+a=int(input("masukkan nilai a:"))
+b=int(input("masukkan nilai b:"))
+print("variable a=",a)
+print("variable b=",b)
+print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
 
-NIM : 312410365
+#konversi nilai variable
+a=int(a)
+b=int(b)
+print("hasil pejumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
+Sekarang Kita akan coba lagi untuk run file tersebut, maka akan muncul seperti gambar dibawah ini :
+# ![Screenshot 2024-10-15 140328](https://github.com/user-attachments/assets/dac02ba3-1821-4a93-9129-86b7be5ee1ab)
+String Format String formatting atau pemformatan string memungkinan kita menyuntikkan item kedalam string dari pada kita mencoba menggabungkan string menggunakan koma atau string concatenation. Penggunaan source code yang di berikan oleh dosen seperti berikut :
+# ![Screenshot 2024-10-15 140431](https://github.com/user-attachments/assets/35de4ec4-9b49-45c1-bf7b-91992b67421d)
+```Python
+#string format 1
+print(0, 10**0)
+print(1, 10**1)
+print(2, 10**2)
+print(3, 10**3)
+print(4, 10**4)
+print(5, 10**5)
+print(6, 10**5)
+print(8, 10**8)
+print(9, 10**9)
+print(10, 10**10)
 
-MATKUL : BAHASA PEMOGRAMAN
+#string format 2
+print('{0:>3} {1:>16}'.format(0, 10**0))
+print('{0:>3} {1:>16}'.format(1, 10**1))
+print('{0:>3} {1:>16}'.format(2, 10**2))
+print('{0:>3} {1:>16}'.format(3, 10**3))
+print('{0:>3} {1:>16}'.format(4, 10**4))
+print('{0:>3} {1:>16}'.format(5, 10**5))
+print('{0:>3} {1:>16}'.format(6, 10**6))
+print('{0:>3} {1:>16}'.format(7, 10**7))
+print('{0:>3} {1:>16}'.format(8, 10**8))
+print('{0:>3} {1:>16}'.format(9, 10**9))
+print('{0:>3} {1:>16}'.format(10, 10**10))
+```
+String Format 1 Pada syntax / source code strring format satu akan menampilkan output berupa 2 outputan. Yang pertama (sebelah kiri) akan menampilkan angka urut dari angka 0 hingga 10, sedangkan untuk sebelah kanan akan menampilkan Operasi Aritmatika Pangkat. Dengan ketentuan sebagai berikut, Operasi pangkat dengan angka kiri sebagai pokok (Rumus : ** [bintang dua] ) Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pangkat 10, dengan output sebagai berikut :
+# ![Screenshot 2024-10-15 141036](https://github.com/user-attachments/assets/9a3b03fb-16bd-4fda-b9b5-8db463979225)
+2 * String Format 2* Pada syntax atau source code string format dua akan menampilkan output berupa 2 output'an juga (seperti String Format 1, yaitu kanan dan kiri ) Dengan ketentuan sebagai berikut :
 
-#![WhatsApp Image 2024-10-21 at 20 18 42_7bab611b](https://github.com/user-attachments/assets/929e5cc2-1fc1-4080-abbf-f689b7bd4c2f)
+secara Default, .format() menggunakan rata kiri, angka ke kanan. kita dapat menggunakan opsi opsional <,^, atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam penggunaan .format() sebagai berikut :
+Untuk hasil dari String Format 2 adalah :
+# ![Screenshot 2024-10-15 141347](https://github.com/user-attachments/assets/78812982-5628-46be-a65d-f8147092cf13)
+# TUGAS LATIHAN
+# ![WhatsApp Image 2024-10-20 at 10 55 01_a29547f6](https://github.com/user-attachments/assets/4175ca96-9d45-4118-bc0d-c326869db5dd)
+# Flowchart Bilangan terbesar dari 3 buah bilangan :
+# ![Gambar WhatsApp 2024-10-17 pukul 00 34 59_95aec777](https://github.com/user-attachments/assets/ff1cf187-a75f-49a4-8a13-700322f9b92a)
+# Program bilangan terbesar dari 3 buah yg di inputkan :
+# ![Screenshot 2024-10-21 180155](https://github.com/user-attachments/assets/066a8c57-417f-406a-b2e3-9c07ac3fdebf)
 
-# PEMBAHASAN MENGENAI 
-# PENGGUNAAN END
-# PENGGUNAAN SEREPATOR
-# STRING FORMAT
 
-## PRAKTIKUM 3
-# TUGAS 1
-#![WhatsApp Image 2024-10-21 at 20 18 56_f04cff40](https://github.com/user-attachments/assets/5360c763-7668-4062-aae1-c3f8c0703a52)
+melalui pernyataan kondisi if-else, program membandingkan bilangan pertama dengan bilangan kedua dan ketiga, dan seterusnya
+# Flowchart Bilangan terbesar dari Bilangan N :
+# ![Gambar WhatsApp 2024-10-17 pukul 12 53 34_cd402e92](https://github.com/user-attachments/assets/2cb0f61c-e657-43ea-907a-0987154191cb)
+# Program bilangan terbesar N
+# ![Screenshot 2024-10-21 180333](https://github.com/user-attachments/assets/265b5808-72cf-4827-a450-a4239dd7e3a5)
 
-#![WhatsApp Image 2024-10-21 at 20 19 06_a3047272](https://github.com/user-attachments/assets/3fa58d59-6cec-498f-a3ed-10c1fb6ff4d2)
-```pyhton
-```print('a',end=")
-```print('b',end=")
-```print('c',end=")
-```print()
-```print('x')
-```print('y')
-```print('z')
-```'
-
-Parameter end dalam fungsi print () di pyhton di gunakan untuk menambahkan string("") apapun diakhir dan mengeluarkan pertanyaan print
-
-```pyhton
-```print()
-
-secara default,fungsi print() akan mengakhiri dengan baris baru,dan akan secara otomatis karakter baris baru di akhir output
-
-inilah akhir program tersebut
-
-#![Screenshot 2024-10-21 193251](https://github.com/user-attachments/assets/9b0fb46b-ea92-4bff-8906-d9ba7802afb2)
-
-## PENGGUNAAN SEREPATOR
-#![WhatsApp Image 2024-10-21 at 20 19 16_68a42294](https://github.com/user-attachments/assets/039a877a-9871-4d77-8092-30fe8945e37a)
-```pyhton
-```w,x,y,z,10,15,20,25
-```print(w,x,y,z,)
-```print(w,x,y,z, sep=',')
-```print(w,x,y,z, sep='')
-```print(w,x,y,z, sep=':')
-```print(w,x,y,z, sep='-----')
-
-pada pyhton pengguna serepator dapat menggunakan split() atau sep yang seperti dalam kode program di atas 
-
-serepator ini menentukan pembatasan yang di gunakan untuk memisahkan string,serepator dapat berupa karakter tunggal atau beberapa karakter.jika tidak ditentukan,maka pyhton akan menggunakan spasi sebagai pemisah.
-
-Berikut hasil kode Program di atas
-#![WhatsApp Image 2024-10-21 at 21 08 18_b37df85c](https://github.com/user-attachments/assets/a29bd597-8068-4dda-89fb-147eca32d89f)
-
-```pyhton
-```w,x,y,z, =10,15,20,25
-
-Variable yang seperti ini menentukan parameter,jadi variable ini tidak bisa memasukan variable angka yang sudah ditentukan w = 10,x=15,y=20,z=25
-
-```Print(w,x,y,z sep=',')
-
-karena pemisahnya dihilangkan,kita menggunakan fungsi sepatausplit()dan kita memasukkan pemisahnya didalam string akan memunculkan cetakan yang sesuai keinginan anda dalam memisahkan sesuatu parameter
-
-#![WhatsApp Image 2024-10-21 at 20 19 25_ed004fd9](https://github.com/user-attachments/assets/ddd95fb3-e323-449e-adda-b6572c95f051)
-
-```print(0, 10**0)
-```print(1, 10**1)
-```print(2, 10**2)
-```print(3, 10**3)
-```print(4, 10**4)
-```print(5, 10**5)
-```print(6, 10**6)
-```print(7, 10**7)
-```print(8, 10**8)
-```print(9, 10**9)
-```print(10, 10**10)
-
-```print('{0:>3} {1:>16}'.format(0, 10**0))
-```print('{0:>3} {1:>16}'.format(1, 10**1))
-```print('{0:>3} {1:>16}'.format(2, 10**2))
-```print('{0:>3} {1:>16}'.format(3, 10**3))
-```print('{0:>3} {1:>16}'.format(4, 10**4))
-```print('{0:>3} {1:>16}'.format(5, 10**5))
-```print('{0:>3} {1:>16}'.format(6, 10**6))
-```print('{0:>3} {1:>16}'.format(7, 10**7))
-```print('{0:>3} {1:>16}'.format(8, 10**8))
-```print('{0:>3} {1:>16}'.format(9, 10**9))
-```print('{0:>3} {1:>16}'.format(10, 10**10))
-
-String Format adalah proses memasukan variable atau string kustom ke dalam teks yang sudah ditentukan,dan dapat digunakan untuk berbagai keperluan,seperti memasukan judul dalam grafik,menampilkan pesan atau kesalahan, atau meneruskan kesalahan ke suatu fungsi
-
-```print(0, 10**0)
-```print(1, 10**1)
-```print(2, 10**2)
-```print(3, 10**3)
-```print(4, 10**4)
-```print(5, 10**5)
-```print(6, 10**5)
-```print(8, 10**8)
-```print(9, 10**9)
-```print(10, 10**10)
-
-Nilai pertama dalam setiap pasangan adalah angka dari 0 hingga 10, kode program ini dihitung dengan menggunakan operasi pangkat atau fungsinya (**) untuk menaikkan 10 ke pangkat yang sesuai dengan angka pertama, yang bisa di bahasa manusiakan variable 0 = 10 pangkat 0, variable 1 10 pangkat 1 dan seterusnya hingga variable 10 yaitu 10 pangkat 10, dan di cetak dengan fungsi print()
-
-```print('{0:>3} {1:>16}'.format(0, 10**0))
-```print('{0:>3} {1:>16}'.format(1, 10**1))
-```print('{0:>3} {1:>16}'.format(2, 10**2))
-```print('{0:>3} {1:>16}'.format(3, 10**3))
-```print('{0:>3} {1:>16}'.format(4, 10**4))
-```print('{0:>3} {1:>16}'.format(5, 10**5))
-```print('{0:>3} {1:>16}'.format(6, 10**6))
-```print('{0:>3} {1:>16}'.format(7, 10**7))
-```print('{0:>3} {1:>16}'.format(8, 10**8))
-```print('{0:>3} {1:>16}'.format(9, 10**9))
-```print('{0:>3} {1:>16}'.format(10, 10**10))
-
-Kode ini mencetak 11 baris dengan format {0:3} {1:16} yang di gunakan untuk mengatur format string
-
-Pada string pertama, angka 0 di format untuk memeliki lebar 3 karakter atau yang bisa disebut 3 kali spasi dengan perataan kanan.
-
-angka 1 diformat untuk memiliki lebar 16 Karakter atau 16 kali spasi dengan perataan kanan, dan masing-masing mencetak nilai seperti format di atas dengan fungsi print()
-
-## KODE PEMOGRAMAN
-## 3 INPUT BILANGAN
-
-```a = int(input("masukan angka pertama: "))
-```b = int(input("masukan angka kedua: "))
-```c = int(input("masukan angka ketiga: "))
-
-```if a > b and a > c:
-   ```print(f"angka lebih besar adalah {a}")
-```elif b > a and b > c:
-    ```print(f"angka lebih besar adalah {b}")
-```else:
-    ```print(f"angka lebih besar adalah {c}")
-
-Program ini akan menginputkan 3 bilangan dari a yang sampai dengan c.
-
-```if a > b and a > c:
-   ```print(f"angka lebih besar adalah {a}")
-
-Karna Jika {a} lebih besar dari {b} dan {a} lebih besar dari {c}, output yang keluar adalah {a}
-
-```elif b > a and b > c:
-   ```print(f"angka lebih besar adalah {b}")
-
-Dan jika {b} lebih besar dari {a} dan {b} lebih besar dari {c} maka output yang keluar adalah {b}
-
-```else:
-    ```print(f"angka lebih besar adalah {c}")
-
-Jika inputan yang diatas lebih kecil dari {c} maka output {c} yang akan keluar
-
-Hasil Pemograman Tersebut
-#![WhatsApp Image 2024-10-21 at 21 20 14_d47cf637](https://github.com/user-attachments/assets/bcaca521-7fb7-4619-9d27-3024c9d07caf)
-
-Hasil VisualCode
-#![WhatsApp Image 2024-10-21 at 19 22 27_47869658](https://github.com/user-attachments/assets/a92d27a7-517d-4f70-88b0-28b911807dce)
-
-Dan Flowchart
-#![WhatsApp Image 2024-10-21 at 21 29 25_1bd6824e](https://github.com/user-attachments/assets/ce1143c8-2266-4b28-9e13-f9ccc367bfc6)
-
-## MENENTUKAN BILANGAN TERBESAR DARI N DAN BERIKAN ANGKA 0
-
-```while True:   
-    ```N = int(input("masukan angka: "))
-
-    ```if N == 0:
-        ```print(f"angaka terbesar adalah: {max}")
-        ```break
-    ```if N > max:
-        ```max = N
-
-Untuk menentukan bilangan terbesar dari n dalam Python, Anda bisa menggunakan fungsi max()
-
-```max = 0
-
-Masukkan daftar angka ke fungsi max(), Fungsi max() akan mengembalikan angka terbesar dalam daftar
-
-Fungsi max() adalah fungsi bawaan Python yang berguna untuk menemukan nilai terbesar dalam suatu iterable atau dalam serangkaian argumen reguler.
-
-```if N == 0:
-        ```print(f"angka yang terbesar adalah: {max}")
-        ```break
-
-Fungsi ini jika Kita memasukan inputan integer yaitu 0 akan berlanjut ke fungsi break program dihentikan yang artinya selesai.
-
-```if N > max:
-        ```max = N
-
-Jika Inputan yang kita masukan lebih besar dari fungsi max() di atas, program akan melanjutkan ke proses max = N yang artinya Angka terbesar akan Mencetak Inputan Bilangan yang kita masukan yang terbesar di cetak
-
-```while True:
-
-While true: adalah konstruksi perulangan dalam bahasa pemrograman Python yang memungkinkan blok kode diulang tanpa batas. dan karna di kode program diatas ada fungsi While True: Program terus berlanjut terus menerus, dan ketika kita ingin berhenti saya berikan decision N==0 dengan fungsi di bawahnya break seperti di atas yang berarti Inputan Integer yang di masukan angka 0 program akan di hentikan dan memunculkan cetakan yang terbesar
-
-Dan Hasil Pemograman Tersebut
-#![Screenshot 2024-10-21 193354](https://github.com/user-attachments/assets/a660ffc5-0435-4107-b16f-3557ae8c07ff)
-
-Hasil VisualCode
-#![Screenshot 2024-10-21 193354](https://github.com/user-attachments/assets/515b04d1-829a-40d8-9da6-cc1284faa871)
-
-Dan Hasil Flowchart
-#![WhatsApp Image 2024-10-21 at 21 27 22_c524c0d6](https://github.com/user-attachments/assets/80999607-724c-4e68-b0cc-2a728efa462c)
+# setiap angka yang diinputkan diperiksa apakah lebih besar dari angka terbesar yang saat ini disimpan dan jika pengguna memasukan angka 0, program akan memberi tahu bahwa tidak ada bilangan yang dimasukkan dan tidak dapat melanjutkan untuk meminta bilangan selanjutnya
